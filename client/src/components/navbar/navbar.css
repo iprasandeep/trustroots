@@ -1,7 +1,4 @@
-*{
-    margin:0;
-    padding: 0;
-}
+
 .navbar {
     height:  50px;
     background-color: #003580;
@@ -29,4 +26,5 @@
     padding: 5px 10px;
     cursor: pointer;
     color: #003580;
+    border-radius: 3px;
 }
