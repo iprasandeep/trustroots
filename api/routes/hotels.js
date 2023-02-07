@@ -30,7 +30,7 @@ router.put('/:id', async (req, res)=>{
 })
 // DELETE
 router.delete('/:id', async (req, res)=>{
-    // hotel info from user
+    // hotel info from user created for delete hotel details
     // const newHotel = new Hotel(req.body)
     try{
        await Hotel.findByIdAndDelete(req.params.id)
